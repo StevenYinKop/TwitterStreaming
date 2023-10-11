@@ -14,7 +14,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <twitter4j.version>4.1.2</twitter4j.version>
+        <twitter4j.version>4.0.7</twitter4j.version>
         <junit.version>3.8.1</junit.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -31,7 +31,7 @@
         </dependency>
         <dependency>
             <groupId>org.twitter4j</groupId>
-            <artifactId>twitter4j-core</artifactId>
+            <artifactId>twitter4j-stream</artifactId>
             <version>${twitter4j.version}</version>
         </dependency>
         <dependency>
