@@ -21,6 +21,8 @@
 		<java.version>17</java.version>
 		<spring-boot.version>3.1.4</spring-boot.version>
 		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+		<httpclient.version>4.5.13</httpclient.version>
+		<orgjson.version>20160212</orgjson.version>
 	</properties>
 
 	<dependencyManagement>
@@ -36,6 +38,16 @@
 				<artifactId>spring-boot-starter-test</artifactId>
 				<version>${spring-boot.version}</version>
 				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpclient</artifactId>
+				<version>${httpclient.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.json</groupId>
+				<artifactId>json</artifactId>
+				<version>${orgjson.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
