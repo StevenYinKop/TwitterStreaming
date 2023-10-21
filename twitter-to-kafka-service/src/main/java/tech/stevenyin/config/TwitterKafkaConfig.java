@@ -12,4 +12,8 @@ import java.util.List;
 @Configuration
 public class TwitterKafkaConfig {
     private List<String> twitterKeywords;
+    private Boolean enableMockTweets;
+    private Long mockSleepMs;
+    private Integer mockMaxTweetLength;
+    private Integer mockMinTweetLength;
 }
